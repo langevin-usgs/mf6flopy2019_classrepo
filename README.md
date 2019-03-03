@@ -1,3 +1,5 @@
+![header](./exercises/img/header.jpg)
+
 # mf6flopy2019_classrepo
 Repository for the MODFLOW 6 / Flopy workshop
 
