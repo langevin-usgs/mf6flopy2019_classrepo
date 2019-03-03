@@ -1,0 +1,17 @@
+BEGIN Options
+  SAVE_FLOWS
+  LIST       ex06.lst
+END Options
+
+BEGIN Packages
+  DIS6       ex06.dis
+  IC6        ex06.ic
+  NPF6       ex06.npf
+  STO6       ex06.sto
+  OC6        ex06.oc
+  RCH6       ex06.rch
+  RIV6       ex06.riv       'RIV-1'           
+  CHD6       ex06.chd       'CHD-1'
+  CHD6       ex06.lake.chd  'LAK-1'
+END Packages
+

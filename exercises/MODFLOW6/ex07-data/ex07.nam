@@ -1,0 +1,16 @@
+BEGIN Options
+  LIST       ex07.lst
+END Options
+
+BEGIN Packages
+  DIS6       ex07.dis
+  IC6        ex07.ic
+  NPF6       ex07.npf
+  STO6       ex07.sto
+  OC6        ex07.oc
+  RCH6       ex07.rch
+  SFR6       ex07.sfr  'SFR-1'           
+  LAK6       ex07.lak  'LAK-1'           
+  CHD6       ex07.chd  'CHD-1'
+END Packages
+

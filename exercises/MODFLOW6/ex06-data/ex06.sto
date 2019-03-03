@@ -1,0 +1,27 @@
+BEGIN options
+END options
+
+BEGIN griddata
+  iconvert  LAYERED
+    CONSTANT  1
+    CONSTANT  1
+    CONSTANT  0
+    CONSTANT  0
+    CONSTANT  0
+    CONSTANT  0
+    CONSTANT  0
+    CONSTANT  0
+  ss
+    CONSTANT  1.00000000E-05
+  sy
+    CONSTANT       0.30000000
+END griddata
+
+BEGIN period  1
+  STEADY-STATE
+END period  1
+
+BEGIN period  2
+  TRANSIENT
+END period  2
+
