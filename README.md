@@ -54,8 +54,8 @@ The following tentative agenda is based on a start time each morning of 8:30 AM 
 
 ### Thursday
 
-* Exercise ex07: converting River (RIV) and Constant Head (CHD) Packages to the Stream Flow Routing (SFR) and Lake (LAK) Packages, with an emphasis on using time series
-* Exercise ex08: using the Water Mover (MVR) package to connect streams and lakes
+* Exercise ex07: converting River (RIV) and Constant Head (CHD) Packages to the Stream Flow Routing (SFR) and Lake (LAK) Packages, and transfer water between them using the Water Mover (MVR) Package
+* Exercise ex08: load a LAK and SFR model and specify SFR inflows using time series; add LAK and SFR observations
 
 * Special Topics (with interactive demo if desired)
     * No more wetting and drying!  What’s up with the Newton-Raphson Formulation?
