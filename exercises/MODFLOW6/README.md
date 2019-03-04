@@ -86,6 +86,10 @@ The boundary conditions were designed to produce flow that is generally from nor
 
 ## EXERCISE 7
 
-The purpose of this exercise is to load an existing model with SFR and LAK packages and add a MVR package to transfer water between the SFR and LAK packages. We will also convert the SFR inflows to use a time series file and add LAK and SFR observations. The model is the same as the model used in exercise 6 with the exception that the RIV and CHD package representing the lakes have been replaced by the SFR and LAK packages, respectively.
+The purpose of this exercise is to load a model that uses constant head cells to represent lakes and the River Package to represent streams, and modify the model to use the LAK and SFR Packages and have water transferred between them using the Water Mover (MVR) Package.
+
+## EXERCISE 8
+
+The purpose of this exercise is to load an existing model with SFR and LAK packages, and add a MVR package to transfer water between the SFR and LAK packages. We will also convert the SFR inflows to use a time series file and add LAK and SFR observations. The model is the same as the model used in exercise 7.
 
 If there is time we may create the SFR and LAK packages from raw data contained in ascii files instead of reading an existing model with these packages.
