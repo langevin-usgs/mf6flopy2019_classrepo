@@ -72,3 +72,15 @@ The following tentative agenda is based on a start time each morning of 8:30 AM 
 
 Required software: workshop participants will be required to have working copies of a relatively new version of Python capable of running Jupyter Notebooks.  The Anaconda Python distribution is STRONGLY recommended.  The class will rely heavily on the latest version of Flopy (and its dependencies: numpy, matplotlib, etc.), and so users will need to be able to install and update Python packages.  For those using Windows, we will be providing a version of the USGS ModelViewer program that works with MODFLOW 6.
 
+### Model Viewer for MODFLOW 6
+Workshop participants will also be provided with a beta version of Model Viewer for MODFLOW 6, which is a Windows GUI for viewing MODFLOW 6 models. For this program to run properly, it may be necessary to install additional Windows DLLs by following these instructions.  A newer version of Windows 10 required installation of only the first one below.
+
+* Microsoft Visual C++ 2010 Service Pack 1 Redistributable Package MFC Security Update
+download from:
+https://www.microsoft.com/en-us/download/details.aspx?id=26999
+(This one is likely missing from very new machines.)
+
+* Visual C++ Redistributable for Visual Studio 2015
+download from:
+https://www.microsoft.com/en-us/download/details.aspx?id=48145
+(This one is likely missing from old machines.)
