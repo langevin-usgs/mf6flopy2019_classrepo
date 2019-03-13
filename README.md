@@ -29,41 +29,46 @@ The following tentative agenda is based on a start time each morning of 8:30 AM 
 
 ### Tuesday
 
-* Introductions and class overview 
-* Flopy introduction
-* Flopy exercise fpex01: create, run, and post-process a 3-layer MODFLOW 2005 flow model and MODPATH 7 particle tracking model
-* MODFLOW 6 overview (mf6-overview.pptx)
-
-* Input and output (mf6-io.pptx)
-* Exercise ex01: create a MODFLOW 6 flow model by hand
-* MODFLOW 6 and Flopy
-* Exercise ex02: create, run, and post-process a 3-layer regular grid flow model and MODPATH 7 particle tracking model using Flopy
-* MODFLOW 6 discretization (mf6-discretization.pptx)
+* Introductions and class overview (Langevin)
+* Flopy introduction (Hughes)
+* BREAK
+* Flopy exercise fpex01: create, run, and post-process a 3-layer MODFLOW 2005 flow model and MODPATH 7 particle tracking model (Hughes)
+* MODFLOW 6 overview (Langevin; mf6-overview.pptx)
+* LUNCH
+* Input and output (Langevin; mf6-io.pptx)
+* Exercise ex01: create a MODFLOW 6 flow model by hand (Langevin)
+* BREAK
+* MODFLOW 6 and Flopy (Langevin)
+* Exercise ex02: create, run, and post-process a 3-layer regular grid flow model and MODPATH 7 particle tracking model using Flopy (Langevin)
+* MODFLOW 6 discretization (Langevin; mf6-discretization.pptx)
 
 ### Wednesday
 
-* Exercise ex03: recreate flow problem using a 3-layer regular grid, but using the Discretization by Vertices (DISV) Package
-* XT3D Overview (mf6-xt3d.pptx)
-* Exercise ex04: recreate problem using a 3-layer quadtree grid created with the GRIDGEN program and DISV
-* Exercise ex05: recreate flow problem using two tightly coupled regular grids using the flopy LGR utility and the GWF-GWF Exchange
-
-* MODFLOW 6 observations and time series (mf6-obs-timeseries.pptx)
-* Exercise ex06: adding observations to a model
-* MODFLOW 6 Advanced Packages (mf6-advancedpackages.pptx)
+* Exercise ex03: recreate flow problem using a 3-layer regular grid, but using the Discretization by Vertices (DISV) Package (Langevin)
+* XT3D Overview (Langevin; mf6-xt3d.pptx)
+* BREAK
+* Exercise ex04: recreate problem using a 3-layer quadtree grid created with the GRIDGEN program and DISV (Langevin)
+* Exercise ex05: recreate flow problem using two tightly coupled regular grids using the flopy LGR utility and the GWF-GWF Exchange (Langevin)
+* LUNCH
+* MODFLOW 6 observations and time series (Hughes; mf6-obs-timeseries.pptx)
+* Exercise ex06: adding observations to a model (Hughes)
+* BREAK
+* MODFLOW 6 Advanced Packages (Hughes; mf6-advancedpackages.pptx)
 
 
 ### Thursday
 
-* Exercise ex07: converting River (RIV) and Constant Head (CHD) Packages to the Stream Flow Routing (SFR) and Lake (LAK) Packages, and transfer water between them using the Water Mover (MVR) Package
-* Exercise ex08: load a LAK and SFR model and specify SFR inflows using time series; add LAK and SFR observations
-
+* Exercise ex07: converting River (RIV) and Constant Head (CHD) Packages to the Stream Flow Routing (SFR) and Lake (LAK) Packages, and transfer water between them using the Water Mover (MVR) Package (Hughes)
+* BREAK
+* Exercise ex08: load a LAK and SFR model and specify SFR inflows using time series; add LAK and SFR observations (Hughes)
+* LUNCH
 * Special Topics (with interactive demo if desired)
-    * No more wetting and drying!  What’s up with the Newton-Raphson Formulation?
-    * Status of MODFLOW 6 Subsidence Package
-    * Status of MODFLOW 6 Groundwater Transport (GWT) Model 
-    * Status of MODFLOW 6 Variable-Density Flow
+    * No more wetting and drying!  What’s up with the Newton-Raphson Formulation? (Hughes)
+    * Status of MODFLOW 6 Subsidence Package (Hughes)
+    * Status of MODFLOW 6 Groundwater Transport (GWT) Model (Langevin)
+    * Status of MODFLOW 6 Variable-Density Flow (Langevin)
     * Parameterizing a MODFLOW 6 model for PEST
-    * Creating triangular meshes for MODFLOW 6 using the triangle program
+    * Creating triangular meshes for MODFLOW 6 using the triangle program (Langevin)
 * Recap and Adjourn
 
 
