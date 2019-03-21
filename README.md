@@ -48,6 +48,7 @@ The following tentative agenda is based on a start time each morning of 8:30 AM 
 * XT3D Overview (Langevin; mf6-xt3d.pptx)
 * BREAK
 * Exercise ex04: recreate problem using a 3-layer quadtree grid created with the GRIDGEN program and DISV (Langevin)
+* Local Grid Refinement (LGR) with MODFLOW 6 (Langevin; mf6-lgr.pptx)
 * Exercise ex05: recreate flow problem using two tightly coupled regular grids using the flopy LGR utility and the GWF-GWF Exchange (Langevin)
 * LUNCH
 * MODFLOW 6 observations and time series (Hughes; mf6-obs-timeseries.pptx)
