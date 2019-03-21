@@ -30,8 +30,10 @@ mt3dusgsexe = os.path.abspath(os.path.join(exepth, 'mt3dusgs{}'.format(exeext)))
 mf6exe = os.path.abspath(os.path.join(exepth, 'mf6{}'.format(exeext)))
 mf6betaexe = os.path.abspath(os.path.join(exepth, 'mf6beta{}'.format(exeext)))
 gridgenexe = os.path.abspath(os.path.join(exepth, 'gridgen{}'.format(exeext)))
+triangleexe = os.path.abspath(os.path.join(exepth, 'triangle{}'.format(exeext)))
 
-exelist = [mfexe, mfnwtexe, mpexe, mtexe, mt3dusgsexe, mf6exe, mf6betaexe, gridgenexe]
+exelist = [mfexe, mfnwtexe, mpexe, mtexe, mt3dusgsexe, mf6exe, mf6betaexe,
+           gridgenexe, triangleexe]
 for e in exelist:
     if not os.path.isfile(e):
         print('Executable file could not be found: {}'.format(e))
