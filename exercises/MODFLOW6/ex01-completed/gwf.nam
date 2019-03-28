@@ -1,0 +1,17 @@
+BEGIN OPTIONS
+END OPTIONS
+
+BEGIN PACKAGES
+
+# my initial conditions
+  IC6 gwf.ic
+
+
+  NPF6 gwf.npf
+  WEL6 gwf.wel
+  RIV6 gwf.riv
+  DIS6 gwf.dis
+  RCH6 gwf.rch
+  
+  OC6 gwf.oc
+END PACKAGES

@@ -1,0 +1,21 @@
+begin options
+end options
+
+begin dimensions
+  nlay 3
+  nrow 21
+  ncol 20
+end dimensions
+
+begin griddata
+  delr
+    constant 500.
+  delc
+    constant 500.
+  top
+    constant 400.
+  botm layered
+    constant 220
+    constant 200
+    constant 0.
+end griddata

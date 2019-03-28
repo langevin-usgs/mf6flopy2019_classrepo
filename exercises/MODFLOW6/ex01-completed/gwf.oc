@@ -1,0 +1,12 @@
+begin options
+  HEAD FILEOUT gwf.hds
+  BUDGET FILEOUT gwf.cbc
+end options
+
+begin period 1
+  print head all
+  print budget all
+  save head all
+  save budget all
+end period
+

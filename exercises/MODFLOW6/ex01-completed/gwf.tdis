@@ -1,0 +1,10 @@
+begin options
+end options
+
+begin dimensions
+  nper 1
+end dimensions
+
+begin perioddata
+  1. 1 1.0
+end perioddata

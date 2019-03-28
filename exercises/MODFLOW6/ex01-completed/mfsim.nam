@@ -1,0 +1,17 @@
+begin options
+end options
+
+begin timing
+  TDIS6 gwf.tdis
+end timing
+
+BEGIN MODELS
+  GWF6   gwf.nam  mygwfmodel
+END MODELS
+
+BEGIN EXCHANGES
+END EXCHANGES
+
+BEGIN SOLUTIONGROUP 1
+  IMS6 gwf.ims mygwfmodel
+END SOLUTIONGROUP
